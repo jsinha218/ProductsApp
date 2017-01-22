@@ -21,7 +21,6 @@ gem 'pry-rails', :group => :development
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'rolify'
-gem 'pg'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
