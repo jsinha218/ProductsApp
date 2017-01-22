@@ -21,6 +21,8 @@ gem 'pry-rails', :group => :development
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'rolify'
+gem 'pg'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -40,7 +42,7 @@ group :development do
 end
 
 group :production do   
-    gem 'pg', '0.17.1' 
+     gem 'pg', '0.18.4'
  end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
